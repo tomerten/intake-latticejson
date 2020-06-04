@@ -1,0 +1,8 @@
+setup.py
+intake_latticejson/__init__.py
+intake_latticejson.egg-info/PKG-INFO
+intake_latticejson.egg-info/SOURCES.txt
+intake_latticejson.egg-info/dependency_links.txt
+intake_latticejson.egg-info/not-zip-safe
+intake_latticejson.egg-info/requires.txt
+intake_latticejson.egg-info/top_level.txt
