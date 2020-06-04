@@ -10,6 +10,11 @@ setup(
     maintainer_email='',
     license='BSD',
     packages=find_packages(),
+    entry_points= {
+        'intake.drivers': [
+            'latticejson =  intake_latticejson.Latticejson'
+            ]
+        },
     include_package_data=True,
     install_requires=['intake'],
     long_description="",
