@@ -9,10 +9,13 @@ setup(
     maintainer='Trainee',
     maintainer_email='',
     license='BSD',
+    #py_modules=['intake_latticejson'],
+    #packages=['intake_latticejon'],
+    #
     packages=find_packages(),
     entry_points= {
         'intake.drivers': [
-            'latticejson =  intake_latticejson.Latticejson'
+            'lattice_json =  intake_latticejson.intake_latticejson:Latticejson',
             ]
         },
     include_package_data=True,

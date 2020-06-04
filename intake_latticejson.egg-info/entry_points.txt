@@ -1,0 +1,3 @@
+[intake.drivers]
+lattice_json = intake_latticejson.intake_latticejson:Latticejson
+
