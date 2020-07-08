@@ -1,3 +1,5 @@
 [intake.drivers]
 lattice_json = intake_latticejson.intake_latticejson:Latticejson
+local-latticejson = intake_latticejson.intake_latticejson:LocalLatticejson
+remote-latticejson = intake_latticejson.intake_latticejson:RemoteLatticejson
 

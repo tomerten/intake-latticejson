@@ -16,6 +16,9 @@ setup(
     entry_points= {
         'intake.drivers': [
             'lattice_json =  intake_latticejson.intake_latticejson:Latticejson',
+            'remote-latticejson = intake_latticejson.intake_latticejson:RemoteLatticejson',
+            'local-latticejson = intake_latticejson.intake_latticejson:LocalLatticejson',
+            #'tlat = intake_latticejson.intake_latticejson:test',
             ]
         },
     include_package_data=True,
